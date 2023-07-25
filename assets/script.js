@@ -6,7 +6,7 @@ const closeBtn = lightbox.querySelector(".uil-times")
 const downloadImgBtn = lightbox.querySelector(".uil-import")
 const closeBg = lightbox.querySelector(".lightbox__bg")
 
-const apiKey = "XWmAHXCO4mLuZNMtilSAo5LK8CVRkGZrugtgZo9bOsfcfgSkfwa5Fcfo"
+const apiKey = "Coloque sua API key aqui"
 const perPage = 15
 let currentPage = 1;
 let searchTerm = null;
