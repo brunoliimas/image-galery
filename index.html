@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="./assets/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container header__nav">
+            <a href="/index.html">
+                <img class="header__logo" src="/assets/images/logo.svg" alt="Logo">
+            </a>
+            <a class="header__nav-link" href="/sobre.html">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="lightbox">
+            <div class="lightbox__bg">
+                <div class="lightbox__wrapper">
+                    <header>
+                        <div class="lightbox__wrapper-photographer">
+                            <i class="uil uil-camera"></i>
+                            <span></span>
+                        </div>
+                        <div class="lightbox__wrapper-buttons">
+                            <i class="uil uil-import"></i>
+                            <i class="uil uil-times"></i>
+                        </div>
+                    </header>
+                    <div class="lightbox__wrapper-image">
+                        <img src="" alt="Image wrapper">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="search">
+            <div class="container search__content">
+                <h1 class="search__title">Galeria de Imagens com Javascript</h1>
+                <p class="search__text">Pesquise e baixe qualquer imagem em um segundo</p>
+                <div class="search__form">
+                    <i class="uil uil-search search__form-icon"></i>
+                    <input class="search__form-input" type="text" placeholder="Pesquisar imagens">
+                </div>
+            </div>
+        </section>
+        <section class="galery">
+            <ul class="container galery__images">
+
+            </ul>
+            <button class="galery__button">Carregar mais</button>
+
+        </section>
+    </main>
+</body>
+
+</html>
